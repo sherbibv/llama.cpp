@@ -12,7 +12,10 @@ repository_name="local/llama.cpp:$custom_tag"
 # Clone the llama.cpp repository
 git clone https://github.com/ggerganov/llama.cpp.git
 
-cd llama.cpp
-
 # Build the Docker image with the custom tag
+cd llama.cpp
 docker build -t "$repository_name" -f .devops/full.Dockerfile .
+
+# Performing cleanup
+cd ../
+rm -rf llama.cpp
