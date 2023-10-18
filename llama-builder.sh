@@ -6,6 +6,10 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
+# Install necesarry building tools
+apt install cmake
+apt install build-essential
+
 custom_tag="$1"
 repository_name="local/llama.cpp:$custom_tag"
 
