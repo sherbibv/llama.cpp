@@ -13,4 +13,4 @@ repository_name="local/llama.cpp:$custom_tag"
 git clone https://github.com/ggerganov/llama.cpp.git
 
 # Build the Docker image with the custom tag
-docker build -t "$repository_name" -f .devops/full.Dockerfile .
+docker build -t "$repository_name" -f llama.cpp/.devops/full.Dockerfile .
