@@ -8,4 +8,4 @@ Once you have cloned the repository and ensured that the script is executable(``
 
 ```./llama-builder.sh <TAG_VERSION>```
 
-Replace <TAG_VERSION> with the specific version you wish to assign to the resulting Docker image.
+Replace **<TAG_VERSION>** with the specific version you wish to assign to the resulting Docker image.
