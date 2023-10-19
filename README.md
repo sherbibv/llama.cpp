@@ -32,8 +32,9 @@ models=Models(
     system_message="",
     headers={'CF-Access-Client-Id': 'CLIENT_ID', 'CF-Access-Client-Secret': 'CLIENT_SECRET'},
     server_url="URL_TO_SERVER_RUNNING_LLAMA.CPP"
-		),
+  ),
   saved=[]
 )
 ```
 
+Obs: ```LlamaCpp``` object name needs to stay as is, and can only customize its properties.
