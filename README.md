@@ -37,4 +37,4 @@ models=Models(
 )
 ```
 
-Obs: ```LlamaCpp``` object name needs to stay as is, and can only customize its properties.
+Obs: ```LlamaCpp``` object name needs to stay as is, you can only customize its properties.
