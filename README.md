@@ -6,10 +6,9 @@ A script designed to fetch the [llama.cpp](https://github.com/ggerganov/llama.cp
 
 Once you have cloned the repository and ensured that the script is executable(```sudo chmod +x llama-builder.sh```) initiate the build process by executing the following command:
 
-```./llama-builder.sh --tag <TAG_VERSION> --cuda <CUDA_ENABLED>```
+```./llama-builder.sh --tag <TAG_VERSION>```
 
 Replace **<TAG_VERSION>** with the specific version you wish to assign to the resulting Docker image. 
-Replace **<CUDA_ENABLED>** with 1 to enable CUDA, or 0 to disable CUDA and use only CPU. 
 
 ## Running inference
 
