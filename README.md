@@ -4,7 +4,7 @@ A script designed to fetch the [llama.cpp](https://github.com/ggerganov/llama.cp
 
 ## Running the script
 
-Once you have cloned the repository and ensured that the script is executable(if not run ```sudo chmod +x llama-builder.sh```) initiate the build process by executing the following command:
+Once you have cloned the repository and ensured that the script is executable (if not run ```sudo chmod +x llama-builder.sh```) initiate the build process by executing the following command:
 
 ```./llama-builder.sh --tag <TAG_VERSION>```
 
