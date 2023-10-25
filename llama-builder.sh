@@ -12,13 +12,14 @@ apt install build-essential
 
 custom_tag="$1"
 repository_name="local/llama.cpp:$custom_tag"
+repository_name_latest="local/llama.cpp:latest"
 
 # Clone the llama.cpp repository
 git clone https://github.com/ggerganov/llama.cpp.git
 
 # Build the Docker image with the custom tag
 cd llama.cpp
-docker build -t "$repository_name" -f .devops/full.Dockerfile .
+docker build -t "$repository_name" -t "$repository_name_latest"  -f .devops/full.Dockerfile .
 
 # Performing cleanup
 cd ../
